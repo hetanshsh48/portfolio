@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,10 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
 </head>
+
 <body class="bg-gray-100 font-sans">
 
   <!-- Navigation -->
@@ -19,13 +23,14 @@
             <span class="text-2xl font-bold text-gray-800 hover:text-blue-500 transition-colors duration-300">
               <i class="fas fa-chart-line"></i> Data Analyst Portfolio
             </span>
-            
+
           </a>
         </div>
         <div class="hidden md:flex items-center space-x-1">
           <a href="#about" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">About</a>
           <a href="#skills" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Skills</a>
           <a href="#projects" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Projects</a>
+          <a href="#certifications" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Certifications</a>
           <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Contact</a>
         </div>
       </div>
@@ -33,31 +38,42 @@
   </nav>
 
   <!-- Hero Section -->
- 
-<section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
-  <div class="container mx-auto text-center animate-fadeIn">
-    <h1 class="text-5xl font-bold">Hi, I'm Hetansh Shah</h1>
-    <p class="text-xl mt-4">Data Analyst | Transforming Data into Insights</p>
-    <div class="mt-8 space-x-4">
-      <!-- Download Resume Button -->
-      <a href="path/to/your/resume.pdf" download class="inline-block bg-white text-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
-        <i class="fas fa-download"></i> Download Resume
-      </a>
-      <!-- GitHub Button -->
-      <a href="https://github.com/your-username" target="_blank" class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700">
-        <i class="fab fa-github"></i> GitHub
-      </a>
+
+  <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+    <div class="container mx-auto text-center animate-fadeIn">
+      <h1 class="text-5xl font-bold">Hi, I'm Hetansh Shah</h1>
+      <p class="text-xl mt-4">Data Analyst | Transforming Data into Insights</p>
+      
+
+
+      <div class="mt-8 space-x-4">
+        <!-- Download Resume Button -->
+        <a href="path/to/resume.pdf" download class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">
+          Download Resume
+        </a>
+        <!-- GitHub Button -->
+        <a href="https://github.com/your-username" target="_blank"
+          class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <!-- LinkedIn Button -->
+         <a href="https://www.linkedin.com/in/hetanshshah0403" target="_blank"
+          class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">
+          <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- About Section -->
   <section id="about" class="py-16">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold">About Me</h2>
-      <img src="CRC 2023-082.jpg" alt="Hetansh Shah" class="mx-auto mt-8 rounded-lg shadow-lg" style="max-width: 300px; height: auto;">
+      <img src="CRC 2023-082.jpg" alt="Hetansh Shah" class="mx-auto mt-8 rounded-lg shadow-lg"
+        style="max-width: 300px; height: auto;">
       <div class="mt-8 max-w-2xl mx-auto">
         <p class="text-gray-600">
-          I'm a passionate data analyst with expertise in data visualization, statistical analysis, and machine learning. I love turning raw data into actionable insights that drive business decisions.
+          I'm a passionate data analyst with expertise in data visualization, statistical analysis, and machine
+          learning. I love turning raw data into actionable insights that drive business decisions.
         </p>
         <p class="mt-4 text-lg italic text-gray-600">
           "Success is not final, failure is not fatal: It is the courage to continue that counts."
@@ -70,31 +86,31 @@
   <!-- Skills Section -->
   <section id="skills" class="bg-gray-200 py-16">
     <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center">Skills</h2>
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <i class="fas fa-chart-bar fa-2x"></i> <!-- Icon for Data Visualization -->
-                <h3 class="text-xl font-bold">Data Visualization</h3>
-                <p class="mt-2 text-gray-600">Tableau, Power BI, Matplotlib, Seaborn</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <i class="fas fa-database fa-2x"></i> <!-- Icon for Data Analysis -->
-                <h3 class="text-xl font-bold">Data Analysis</h3>
-                <p class="mt-2 text-gray-600">Python, R, SQL, Excel</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <i class="fas fa-brain fa-2x"></i> <!-- Icon for Machine Learning -->
-                <h3 class="text-xl font-bold">Machine Learning</h3>
-                <p class="mt-2 text-gray-600">Scikit-learn, TensorFlow, Pandas</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <i class="fas fa-server fa-2x"></i> <!-- Icon for Big Data -->
-                <h3 class="text-xl font-bold">Big Data</h3>
-                <p class="mt-2 text-gray-600">Hadoop, Spark, AWS</p>
-            </div>
+      <h2 class="text-3xl font-bold text-center">Skills</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <i class="fas fa-chart-bar fa-2x"></i> <!-- Icon for Data Visualization -->
+          <h3 class="text-xl font-bold">Data Visualization</h3>
+          <p class="mt-2 text-gray-600">Tableau, Power BI, Matplotlib, Seaborn</p>
         </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <i class="fas fa-database fa-2x"></i> <!-- Icon for Data Analysis -->
+          <h3 class="text-xl font-bold">Data Analysis</h3>
+          <p class="mt-2 text-gray-600">Python, R, SQL, Excel</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <i class="fas fa-brain fa-2x"></i> <!-- Icon for Machine Learning -->
+          <h3 class="text-xl font-bold">Machine Learning</h3>
+          <p class="mt-2 text-gray-600">Scikit-learn, TensorFlow, Pandas</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <i class="fas fa-server fa-2x"></i> <!-- Icon for Big Data -->
+          <h3 class="text-xl font-bold">Big Data</h3>
+          <p class="mt-2 text-gray-600">Hadoop, Spark, AWS</p>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
 
   <!-- Projects Section -->
@@ -102,17 +118,87 @@
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center">Projects</h2>
       <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project 1 -->
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h3 class="text-xl font-bold">Sales Data Analysis</h3>
           <p class="mt-2 text-gray-600">Analyzed sales data to identify trends and provide actionable insights.</p>
+          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold">Customer Segmentation</h3>
-          <p class="mt-2 text-gray-600">Used clustering algorithms to segment customers for targeted marketing.</p>
-        </div>
+
+        <!-- Project 2 -->
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h3 class="text-xl font-bold">Predictive Modeling</h3>
           <p class="mt-2 text-gray-600">Built a predictive model to forecast sales using machine learning.</p>
+          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">Customer Segmentation</h3>
+          <p class="mt-2 text-gray-600">Segmented customers based on purchasing behavior using clustering.</p>
+          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">Customer Churn Prediction</h3>
+          <p class="mt-2 text-gray-600">Predicted customer churn using machine learning.</p>
+          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center">Certifications</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Google Data Analytics -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center">
+            <img src="google-logo.png" alt="Google Data Analytics" class="w-12 h-12">
+            <div class="ml-4">
+              <h3 class="text-xl font-bold">Google Data Analytics</h3>
+              <p class="text-gray-600">Issued by Google</p>
+              <p class="text-sm text-gray-500">March 2023</p>
+            </div>
+          </div>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/XYZ123" target="_blank"
+            class="mt-4 inline-block text-blue-500 hover:underline">
+            View Certificate
+          </a>
+        </div>
+
+        <!-- Tableau Desktop Specialist -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center">
+            <img src="tableau-logo.png" alt="Tableau Desktop Specialist" class="w-12 h-12">
+            <div class="ml-4">
+              <h3 class="text-xl font-bold">Tableau Desktop Specialist</h3>
+              <p class="text-gray-600">Issued by Tableau</p>
+              <p class="text-sm text-gray-500">January 2023</p>
+            </div>
+          </div>
+          <a href="https://www.credly.com/badges/abc123" target="_blank"
+            class="mt-4 inline-block text-blue-500 hover:underline">
+            View Certificate
+          </a>
+        </div>
+
+        <!-- Microsoft Excel Expert -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center">
+            <img src="microsoft-logo.png" alt="Microsoft Excel Expert" class="w-12 h-12">
+            <div class="ml-4">
+              <h3 class="text-xl font-bold">Microsoft Excel Expert</h3>
+              <p class="text-gray-600">Issued by Microsoft</p>
+              <p class="text-sm text-gray-500">November 2022</p>
+            </div>
+          </div>
+          <a href="https://www.microsoft.com/learning/dashboard.aspx" target="_blank"
+            class="mt-4 inline-block text-blue-500 hover:underline">
+            View Certificate
+          </a>
         </div>
       </div>
     </div>
@@ -133,7 +219,8 @@
         </div>
         <div class="mb-4">
           <label class="block text-white">Message</label>
-          <textarea class="w-full px-4 py-2 border rounded-lg text-gray-800" rows="5" placeholder="Your Message"></textarea>
+          <textarea class="w-full px-4 py-2 border rounded-lg text-gray-800" rows="5"
+            placeholder="Your Message"></textarea>
         </div>
         <button type="submit" class="bg-white text-blue-500 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100">
           Send Message
@@ -150,4 +237,6 @@
   </footer>
 
 </body>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 </html>

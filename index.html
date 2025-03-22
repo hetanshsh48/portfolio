@@ -8,6 +8,21 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .animate-fadeInUp {
+        animation: fadeInUp 1s ease-out;
+    }
+</style>
 
 
 </head>
@@ -33,37 +48,35 @@
           <a href="#certifications" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Certifications</a>
           <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Contact</a>
         </div>
-      </div>
+      </div> 
     </div>
   </nav>
 
   <!-- Hero Section -->
-
-  <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
-    <div class="container mx-auto text-center animate-fadeIn">
-      <h1 class="text-5xl font-bold">Hi, I'm Hetansh Shah</h1>
-      <p class="text-xl mt-4">Data Analyst | Transforming Data into Insights</p>
-      
-
-
-      <div class="mt-8 space-x-4">
-        <!-- Download Resume Button -->
-        <a href="path/to/resume.pdf" download class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">
-          Download Resume
-        </a>
-        <!-- GitHub Button -->
-        <a href="https://github.com/your-username" target="_blank"
-          class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        <!-- LinkedIn Button -->
-         <a href="https://www.linkedin.com/in/hetanshshah0403" target="_blank"
-          class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">
-          <i class="fab fa-linkedin"></i> LinkedIn Profile
-        </a>
-      </div>
+  <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 text-center">
+    <div class="container mx-auto">
+        <h1 class="text-5xl font-bold animate-fadeInUp" style="animation-delay: 0.5s;">Hi, I'm Hetansh Shah</h1>
+        <p class="text-xl mt-4 animate-fadeInUp" style="animation-delay: 0.75s;">Data Analyst | Transforming Data into Insights</p>
+        <p class="text-lg mt-2 animate-fadeInUp" style="animation-delay: 1s;">
+            I've spent years turning complex data into clear, actionable insights for strategic decision-making.
+        </p>
+        <div class="mt-8 space-x-4">
+            <a href="hetansh_shah_resumev1.pdf" download class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 animate-fadeInUp" style="animation-delay: 1.25s;">
+                Download Resume
+            </a>
+            <a href="https://github.com/your-username" target="_blank"
+               class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 animate-fadeInUp" style="animation-delay: 1.5s;">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/hetanshshah0403" target="_blank"
+               class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 animate-fadeInUp" style="animation-delay: 1.75s;">
+                <i class="fab fa-linkedin"></i> LinkedIn Profile
+            </a>
+        </div>
     </div>
-  </section>
+</section>
+
+
   <!-- About Section -->
   <section id="about" class="py-16">
     <div class="container mx-auto px-4 text-center">

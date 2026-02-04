@@ -129,34 +129,50 @@
   <!-- Projects Section -->
   <section id="projects" class="py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center">Projects</h2>
-      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Project 1 -->
+      <h2 class="text-3xl font-bold text-center">Featured Project</h2>
+      <p class="mt-4 text-center text-gray-600 max-w-3xl mx-auto">
+        End-to-end healthcare analytics project designed for US hospital leadership with ETL, star schema modeling,
+        advanced SQL, and BI dashboard specs.
+      </p>
+      <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold">Sales Data Analysis</h3>
-          <p class="mt-2 text-gray-600">Analyzed sales data to identify trends and provide actionable insights.</p>
-          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+          <h3 class="text-2xl font-bold">Healthcare Readmission & Operations Analytics</h3>
+          <p class="mt-2 text-gray-600">
+            Built on CMS HRRP data to reduce 30-day readmissions and identify high-penalty hospitals.
+          </p>
+          <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2">
+            <li>Python ETL: ingestion, cleaning/validation, feature engineering</li>
+            <li>Star schema with fact/dimension tables for scalable BI</li>
+            <li>Advanced SQL: CTEs, window functions, KPI benchmarking</li>
+            <li>Dashboard logic for Power BI/Tableau + exec summary metrics</li>
+          </ul>
+          <a href="projects/healthcare-readmission-analytics/README.md" class="mt-4 inline-block text-blue-500 hover:underline">
+            View Project Assets
+          </a>
         </div>
-
-        <!-- Project 2 -->
         <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold">Predictive Modeling</h3>
-          <p class="mt-2 text-gray-600">Built a predictive model to forecast sales using machine learning.</p>
-          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold">Customer Segmentation</h3>
-          <p class="mt-2 text-gray-600">Segmented customers based on purchasing behavior using clustering.</p>
-          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold">Customer Churn Prediction</h3>
-          <p class="mt-2 text-gray-600">Predicted customer churn using machine learning.</p>
-          <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+          <h3 class="text-xl font-bold">Key KPIs Delivered</h3>
+          <div class="mt-4 space-y-3 text-gray-600">
+            <div class="flex items-center justify-between">
+              <span>30-Day Readmission Rate</span>
+              <span class="font-semibold text-gray-800">System + Measure</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>Penalty Exposure</span>
+              <span class="font-semibold text-gray-800">Decile Ranking</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>Risk-Adjusted Index</span>
+              <span class="font-semibold text-gray-800">Excess Ratio</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>Trend Analysis</span>
+              <span class="font-semibold text-gray-800">Rolling 3-Month</span>
+            </div>
+          </div>
+          <p class="mt-6 text-gray-600">
+            Recommendation focus: targeted care coordination and operational playbooks for high-variance hospitals.
+          </p>
         </div>
       </div>
     </div>
